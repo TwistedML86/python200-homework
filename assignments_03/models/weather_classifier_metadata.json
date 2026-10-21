@@ -1,0 +1,14 @@
+{
+    "python_version": "3.12.6",
+    "sklearn_version": "1.9.1",
+    "feature_names": [
+        "temperature_2m_max",
+        "temperature_2m_min",
+        "precipitation_sum",
+        "wind_speed_10m_max"
+    ],
+    "label_rule": "Good when high is between 7 and 26 C inclusive, low >= 0 C, precipitation < 3 mm, and maximum wind < 30 km/h.",
+    "city": "Los Angeles",
+    "test_accuracy": 0.9726027397260274,
+    "test_f1": 0.967741935483871
+}
