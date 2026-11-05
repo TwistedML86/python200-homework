@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from openai import OpenAI
 import json 
-import ollama
+
 
 
 
@@ -251,8 +251,7 @@ def run_chatbot():
 
         messages.append({"role": "user", "content": user_input})
 
-        response = ollama.chat(model="qwen3:0.6b", messages=messages)
-        answer = response.message.content
+        answer = get_completion(messages)
         print("\nCoach:", answer)
         messages.append({"role": "assistant", "content": answer})
     
