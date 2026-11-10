@@ -1,0 +1,8 @@
+Student Discount Policy
+
+Groundwork Coffee Co. offers students a 10% discount on drinks.
+Students must show a valid student ID when ordering.
+The discount is available every day.
+It does not apply to pastries, merchandise, catering, or wholesale orders.
+It cannot be combined with other discounts.
+
